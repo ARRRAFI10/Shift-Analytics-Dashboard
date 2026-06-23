@@ -1,0 +1,16 @@
+# Installed fresh inside the build stage.
+node_modules/
+
+# Build artifacts produced inside the image.
+dist/
+.vite/
+*.tsbuildinfo
+
+# Never bake local config into the image.
+.env
+
+# Editor / OS noise.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
